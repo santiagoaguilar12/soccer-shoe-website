@@ -92,7 +92,7 @@ public class Checkout implements ActionListener
       fieldBoxPane.setBackground(new Color(224, 224, 224));   
    
      
-      logo = new JLabel(new ImageIcon("background1.jpg"));//creates new label with a logo of soccer field
+      logo = new JLabel(new ImageIcon("images/background1.jpg"));//creates new label with a logo of soccer field
       logo.setAlignmentX(JLabel.CENTER_ALIGNMENT);//aligns to center
       logo.setBorder(BorderFactory.createEmptyBorder(0, 0, 0,0));//sets border for spacing
       logoPane.add(logo);//adds logo to logo pane
@@ -329,15 +329,15 @@ public class Checkout implements ActionListener
          JFrame.setDefaultLookAndFeelDecorated(false);
       	//creates default shoe object in order to allow actual shoe object to be passed
       
-         ImageIcon tiem1= new ImageIcon("tiem1.jpg");
-         ImageIcon tiem2= new ImageIcon("tiem2.jpg");   
-         ImageIcon tiem3= new ImageIcon("tiem3.jpg");
-         ImageIcon tiem1B= new ImageIcon("tiem1B.jpg");//creates itiemeIcon variables
-         ImageIcon tiem2B= new ImageIcon("tiem2B.jpg");   
-         ImageIcon tiem3B= new ImageIcon("tiem3B.jpg");
-         ImageIcon tiem1S= new ImageIcon("tiem1S.jpg");//creates itiemeIcon variables
-         ImageIcon tiem2S= new ImageIcon("tiem2S.jpg");   
-         ImageIcon tiem3S= new ImageIcon("tiem3S.jpg");
+         ImageIcon tiem1= new ImageIcon("images/tiem1.jpg");
+         ImageIcon tiem2= new ImageIcon("images/tiem2.jpg");   
+         ImageIcon tiem3= new ImageIcon("images/tiem3.jpg");
+         ImageIcon tiem1B= new ImageIcon("images/tiem1B.jpg");//creates itiemeIcon variables
+         ImageIcon tiem2B= new ImageIcon("images/tiem2B.jpg");   
+         ImageIcon tiem3B= new ImageIcon("images/tiem3B.jpg");
+         ImageIcon tiem1S= new ImageIcon("images/tiem1S.jpg");//creates itiemeIcon variables
+         ImageIcon tiem2S= new ImageIcon("images/tiem2S.jpg");   
+         ImageIcon tiem3S= new ImageIcon("images/tiem3S.jpg");
       
          ImageIcon[] tiemArr={tiem1,tiem2,tiem3,tiem1B,tiem2B,tiem3B,tiem1S,tiem2S,tiem3S};   
       

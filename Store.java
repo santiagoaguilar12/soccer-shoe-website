@@ -63,7 +63,7 @@ public class Store implements ActionListener
       brandPane.setLayout(new GridLayout(0,4, 10, 5)); ///sets layout  
       brandPane.setBackground(new Color(224, 224, 224));//sets colour
    
-      logo = new JLabel(new ImageIcon("background1.jpg"));//creates new label with an image of soccer field
+      logo = new JLabel(new ImageIcon("images/background2.jpg"));//creates new label with an image of soccer field
       logo.setAlignmentX(JLabel.CENTER_ALIGNMENT);//aliigns to center
       logo.setBorder(BorderFactory.createEmptyBorder(0, 0, 0,0));//sets border for spacing
       logoPane.add(logo);//adds logo to logo pane
@@ -78,7 +78,7 @@ public class Store implements ActionListener
       contentPane.add(introLab);
    
       	
-      nike = new JButton("Nike Cleats",new ImageIcon("nike1.jpg"));//new nike button with image and text 
+      nike = new JButton("Nike Cleats",new ImageIcon("images/nike1.jpg"));//new nike button with image and text 
       nike.setVerticalTextPosition(SwingConstants.BOTTOM);//sets text position
       nike.setHorizontalTextPosition(SwingConstants.CENTER);
       nike.setFont(buttonFont);//sets font
@@ -87,7 +87,7 @@ public class Store implements ActionListener
       nike.addActionListener(this);//adds listener to check when button is clicked
       brandPane.add(nike);//adds button to brand pane
    	
-      adidas = new JButton("Adidas Cleats",new ImageIcon("adidas1.jpg"));//new addias button with image and text 
+      adidas = new JButton("Adidas Cleats",new ImageIcon("images/adidas1.jpg"));//new addias button with image and text 
       adidas.setVerticalTextPosition(SwingConstants.BOTTOM);//sets text position
       adidas.setHorizontalTextPosition(SwingConstants.CENTER);
       adidas.setFont(buttonFont);//sets font   
@@ -96,7 +96,7 @@ public class Store implements ActionListener
       adidas.addActionListener(this);//adds listener to check when button is clicked
       brandPane.add(adidas);//adds button to brandPane
    	
-      puma = new JButton("Puma Cleats",new ImageIcon("puma1.jpg"));//new button with text 
+      puma = new JButton("Puma Cleats",new ImageIcon("images/puma1.jpg"));//new button with text 
       puma.setVerticalTextPosition(SwingConstants.BOTTOM);
       puma.setHorizontalTextPosition(SwingConstants.CENTER);//sets text position
       puma.setFont(buttonFont); //sets font
@@ -105,7 +105,7 @@ public class Store implements ActionListener
       puma.addActionListener(this);//adds listener to check when button is clicked
       brandPane.add(puma);//adds button to content pane
    	
-      all = new JButton("All Cleats",new ImageIcon("all1.jpg"));//new button with text 
+      all = new JButton("All Cleats",new ImageIcon("images/all1.jpg"));//new button with text 
       all.setVerticalTextPosition(SwingConstants.BOTTOM);//sets text position
       all.setHorizontalTextPosition(SwingConstants.CENTER);
       all.setFont(buttonFont);//sets font  

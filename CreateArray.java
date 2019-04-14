@@ -25,12 +25,12 @@ Date Revised : 12/3/17*/
       public JButton[] fillArray()
       {
       
-         magBtn=new JButton((new ImageIcon("nike1.jpg")));
+         magBtn=new JButton((new ImageIcon("images/nike1.jpg")));
          magBtn.setBorder(BorderFactory.createEmptyBorder(0, 0, 10,0));
          array[0]=magBtn;		
 			
       
-         hyperBtn=new JButton((new ImageIcon("nike1.jpg")));
+         hyperBtn=new JButton((new ImageIcon("images/nike1.jpg")));
          hyperBtn.setBorder(BorderFactory.createEmptyBorder(0, 0, 10,0));
          array[1]=hyperBtn;
       
