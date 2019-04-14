@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Checkout",
+            "request": "launch",
+            "mainClass": "Checkout"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Store",
+            "request": "launch",
+            "mainClass": "Store"
+        }
+    ]
+}
